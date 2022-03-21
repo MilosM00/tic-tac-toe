@@ -425,6 +425,7 @@ buttonNewGame.addEventListener(`click`, () =>{
     winnerPlayer.textContent = `Who will win ?!`;
 
     playing = true;
+    player = true;
     scoreO = 0;
     scoreX = 0;
 });
@@ -453,4 +454,5 @@ buttonPlayAgain.addEventListener(`click`, () =>{
     winnerPlayer.textContent = `Who will win ?!`;
 
     playing = true;
+    player = true;
 });
