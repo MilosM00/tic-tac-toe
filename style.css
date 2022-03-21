@@ -8,7 +8,10 @@ body{
 }
 
 td{
+    font-family: 'Bungee', cursive;
+    cursor: default;
     font-size: 50px;
+    color: white;
 }
 
 .first-row{
@@ -35,15 +38,48 @@ td{
 }
 
 .score{
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
 p{
+    font-family: 'Bungee', cursive;
     font-size: 25px;
 }
 
 .table-overlay{
     display: grid;
     place-items: center;
+}
+
+.winner{
+    font-family: 'Bungee', cursive;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.winner-player{
+    padding-bottom: 20px;
+}
+
+.play-again{
+    padding: 10px;
+    border: none;
+    background-color: rgb(210, 18, 46);
+    color: white;
+    border-radius: 20px;
+}
+
+.new-game{
+    padding: 10px;
+    border: none;
+    background-color: rgb(210, 18, 46);
+    color: white;
+    border-radius: 20px;
+}
+
+.space{
+    padding-left: 50px;
 }
